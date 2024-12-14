@@ -21,11 +21,12 @@ Ce projet permet de gérer différents aspects des ressources humaines à traver
 - **React Router** : Pour la gestion de la navigation entre les pages.
 - **CSS** : Pour la mise en forme et le design responsive.
 
-## ⚙️ **Installation**
+## 🎨 **Aperçu de l'application**
 
-Pour installer et démarrer ce projet en local, voici les étapes à suivre :
-
-1. Clonez ce dépôt :
-
-   ```bash
-   git clone https://github.com/ton_nom_utilisateur/HR-Management-Front-End.git
+![Page d'accueil](1.png)
+![Page des offres d'emploi](2.png)
+![Page de connexion](3.png)
+![Page d'accueil](4.png)
+![Page des offres d'emploi](5.png)
+![Page d'accueil](6.png)
+![Page des offres d'emploi](7.png)
