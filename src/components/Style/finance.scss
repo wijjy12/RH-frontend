@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.job-offer {
+  padding: 40px;
+  background: linear-gradient(to bottom right, #fff, #f0f0f0);
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  margin: 0 auto;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.job-offer h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+  font-weight: 700;
+}
+
+.job-offer section {
+  margin-bottom: 30px;
+}
+
+.job-offer h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #444;
+  font-weight: 700;
+}
+
+.job-offer p, .job-offer ul {
+  font-size: 18px;
+  margin: 5px 0;
+  color: #555;
+}
+
+.job-offer ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.job-offer ul li {
+  margin-bottom: 10px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+section h2::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #333;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.apply-button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.apply-button {
+  background-color: #3a3b3a81;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.apply-button:hover {
+  background-color: #000000;
+}
